@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Bogus" Version="35.6.2" />
+		<PackageReference Include="NSubstitute" Version="5.3.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\src\ConsultaAlertaDengue.API\ConsultaAlertaDengue.API.csproj" />
+		<ProjectReference Include="..\..\src\ConsultaAlertaDengue.Application\ConsultaAlertaDengue.Application.csproj" />
+		<ProjectReference Include="..\..\src\ConsultaAlertaDengue.Domain\ConsultaAlertaDengue.Domain.csproj" />
+		<ProjectReference Include="..\..\src\ConsultaAlertaDengue.Infrastructure\ConsultaAlertaDengue.Infrastructure.csproj" />
+		<ProjectReference Include="..\..\src\ConsultaAlertaDengue.WebApp\ConsultaAlertaDengue.WebApp.csproj" />
+	</ItemGroup>
+	
+</Project>
