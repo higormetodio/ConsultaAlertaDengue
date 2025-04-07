@@ -1,0 +1,51 @@
+﻿@model ResultViewModel<IEnumerable<DadosDengueViewModel>>
+
+@{
+    ViewData["Title"] = "Dados Dengue";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bem-vindo ao Dados Dengue</h1>
+    <h2>Clicando no botão abaixo é possível obter os dados do <a href="https://info.dengue.mat.br/services/api/doc#Consulta-em-formato-JSON">Alerta Dengue API</a></h2>
+    <br />
+    <form class="row" method="post">
+        <div class="mb-3 d-flex justify-content-center">
+            <button type="submit" class="btn btn-primary btn-success" asp-action="GerarDadosAlertaDengue">Atualizar Dados</button>
+        </div>
+    </form>
+
+    @if (Model.IsSuccess)
+    {
+        <div class="pt-3">
+            <h3>Dados Dengue que estão em banco de dados</h3>
+            <br />
+            <div>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">Semana Epeidemiológica</th>
+                            <th scope="col">Casos Estimados</th>
+                            <th scope="col">Casos Notificados</th>
+                            <th scope="col">Nível de Alerta</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var dados in Model.Data!)
+                        {
+                            <tr>
+                                <td>@dados.SemanaEpidemiologica</td>
+                                <td>@dados.CasosEstimados</td>
+                                <td>@dados.CasosNotificados</td>
+                                <td>@dados.NivelAlerta</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    }
+    else
+    {
+        <h3 class="text-danger">@Model.Message</h3>
+    }
+</div>
