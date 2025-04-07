@@ -1,0 +1,6 @@
+@ConsultaAlertaDengue.API_HostAddress = http://localhost:5221
+
+GET {{ConsultaAlertaDengue.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
