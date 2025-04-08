@@ -28,6 +28,6 @@ public class HomeController : Controller
     {
         var result = await _registerDadosDengueUseCase.ExecuteAsync();
 
-        return View("Index", result);
+        return RedirectToAction("Index", result);
     }
 }
