@@ -62,14 +62,6 @@ Para criar uma estrutura de pastas em Markdown, você pode usar uma abordagem hi
 ```
 
 
-Explicação:
-- Use o símbolo de lista (-) seguido pelo nome da pasta ou arquivo.
-- Adicione dois espaços ou um tab para criar níveis de hierarquia (subpastas/arquivos).
-
-Essa representação é puramente visual e descritiva, ótima para documentações. Se precisar de algo mais elaborado, posso ajudar! 😊
-
-
-
 ## Rodando a aplicação com .NET
 Ao baixar a aplicação você pode rodar as seguintes aplicações.
 
