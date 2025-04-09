@@ -62,7 +62,7 @@ Este é um projeto que tem como propósito a realização de consultas a API Ale
 
 
 ## Rodando a aplicação com .NET
-Ao baixar a aplicação você pode rodar as seguintes aplicações.
+Ao baixar a aplicação você pode rodar os seguintes comandos e configurações para utilização dos projetos.
 
 Configurando a connection string no appsettings.json para MySQL
 ```powershell
