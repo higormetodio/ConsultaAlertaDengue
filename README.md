@@ -38,9 +38,9 @@ Este é um projeto que tem como propósito a realização de consultas à API Al
 
 :arrow_forward: [NSubstitute 5.3.0](https://nsubstitute.github.io/)
 
-:arrow_forward: [Bogus](https://github.com/bchavez/Bogus)
+:arrow_forward: [Bogus 35.6.2](https://github.com/bchavez/Bogus)
 
-:arrow_forward: [React](https://pt-br.legacy.reactjs.org/)
+:arrow_forward: [React 19.1.0](https://pt-br.legacy.reactjs.org/)
 
 
 ## Orgranização - Estrutura de pastas do projeto
