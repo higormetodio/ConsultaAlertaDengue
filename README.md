@@ -3,11 +3,11 @@ Este é um projeto que tem como propósito a realização de consultas à API Al
 
 
 ## Objetivos :page_facing_up:
-:white_check_mark: Criação de uma aplicação para consultar dados da API Alerta Dengue e persistir esses dados em banco.
+:white_check_mark: Criar uma aplicação para consultar dados da API Alerta Dengue e persistir esses dados em banco.
 
-:white_check_mark: Criação uma API com um endpoint que realize uma consulta ao banco com base da semanha epidemiológica e o ano.
+:white_check_mark: Criar uma API com um endpoint que realize uma consulta ao banco com base da semanha epidemiológica e o ano.
 
-:white_check_mark: Criação das informação da consulta em uma aplicação Web. 
+:white_check_mark: Criar uma aplicação Web que faz consultas ao banco com os dados persistidos. 
 
 
 
