@@ -56,9 +56,9 @@ Para criar uma estrutura de pastas em Markdown, você pode usar uma abordagem hi
     - ConsultaAlertaDengue.WebReact/
   - tests/
     - API.Tests/
-    - Application.Test
-    - CommonTestUtilities
-    - WebApp.Test      
+    - Application.Test/
+    - CommonTestUtilities/
+    - WebApp.Test/      
 ```
 
 
