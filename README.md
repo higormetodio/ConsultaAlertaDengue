@@ -64,6 +64,21 @@ Este é um projeto que tem como propósito a realização de consultas a API Ale
 ## Rodando a aplicação com .NET
 Ao baixar a aplicação você pode rodar as seguintes aplicações.
 
+Configurando a connection string no appsettings.json para MySQL
+```powershell
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "ConnectionStrings": {
+    "ConsultaAlertaDengueDb": "Server=127.0.0.1;DataBase=ConsultaAlertaDengueDb;Uid=seu_usuario;Pwd=sua_senha"
+  }
+}
+```
+
 Aplicando as Migrations
 ```powershell
 dotnet database update --project ConsultaAlertaDengue.Infrastructure.csproj --startup-project  ./ConsultaAlertaDengue/src/ConsultaAlertaDengue.API/ConsultaAlertaDengue.API.csproj --context ConsultaAlertaDengue.Infrastructure.DataAccess.ConsultaAlertaDengueDbContext
