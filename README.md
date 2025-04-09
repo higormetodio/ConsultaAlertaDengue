@@ -43,6 +43,33 @@ Este é um projeto que tem como propósito a realização de consultas a API Ale
 :arrow_forward: [React](https://pt-br.legacy.reactjs.org/)
 
 
+## Orgranização - Estrutura de pastas do projeto
+Para criar uma estrutura de pastas em Markdown, você pode usar uma abordagem hierárquica utilizando listas com recuo. Veja um exemplo simples:
+```
+- ConsultaAlertaDengue/
+  - src/
+    - ConsultaAlertaDengue.API/
+    - ConsultaAlertaDengue.Application/
+    - ConsultaAlertaDengue.Domain/
+    - ConsultaAlertaDengue.Infrastructure/
+    - ConsultaAlertaDengue.WebApp/
+    - ConsultaAlertaDengue.WebReact/
+  - tests/
+    - API.Tests/
+    - Application.Test
+    - CommonTestUtilities
+    - WebApp.Test      
+```
+
+
+Explicação:
+- Use o símbolo de lista (-) seguido pelo nome da pasta ou arquivo.
+- Adicione dois espaços ou um tab para criar níveis de hierarquia (subpastas/arquivos).
+
+Essa representação é puramente visual e descritiva, ótima para documentações. Se precisar de algo mais elaborado, posso ajudar! 😊
+
+
+
 ## Rodando a aplicação com .NET
 Ao baixar a aplicação você pode rodar as seguintes aplicações.
 
