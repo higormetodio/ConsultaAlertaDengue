@@ -66,13 +66,7 @@ Ao baixar a aplicação você pode rodar os seguintes comandos e configurações
 
 Configurando a connection string no appsettings.json para MySQL
 ```powershell
-{
-  "Logging": {
-    "LogLevel": {
-      "Default": "Information",
-      "Microsoft.AspNetCore": "Warning"
-    }
-  },
+{  
   "ConnectionStrings": {
     "ConsultaAlertaDengueDb": "Server=127.0.0.1;DataBase=ConsultaAlertaDengueDb;Uid=seu_usuario;Pwd=sua_senha"
   }
