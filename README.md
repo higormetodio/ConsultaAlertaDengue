@@ -44,7 +44,6 @@ Este é um projeto que tem como propósito a realização de consultas a API Ale
 
 
 ## Orgranização - Estrutura de pastas do projeto
-Para criar uma estrutura de pastas em Markdown, você pode usar uma abordagem hierárquica utilizando listas com recuo. Veja um exemplo simples:
 ```
 - ConsultaAlertaDengue/
   - src/
