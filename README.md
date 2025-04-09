@@ -1,5 +1,5 @@
 # ConsultaAlertaDengue
-Este é um projeto que tem como propósito a realização de consultas a API Alerta Dengue ( https://info.dengue.mat.br/services/api/doc )
+Este é um projeto que tem como propósito a realização de consultas à API Alerta Dengue ( https://info.dengue.mat.br/services/api/doc )
 
 
 ## Objetivos :page_facing_up:
