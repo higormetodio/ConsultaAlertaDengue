@@ -78,17 +78,17 @@ Aplicando as Migrations
 dotnet database update --project ConsultaAlertaDengue.Infrastructure.csproj --startup-project  ./ConsultaAlertaDengue/src/ConsultaAlertaDengue.API/ConsultaAlertaDengue.API.csproj --context ConsultaAlertaDengue.Infrastructure.DataAccess.ConsultaAlertaDengueDbContext
 ```
 
-Dentro da pasta do Projeto ConsultaAlertaDengu.WebApp - Executar para ter acesso a aplicação que gera e atualiza os dados
+Dentro da pasta do Projeto ConsultaAlertaDengu.WebApp - Executar para ter acesso a aplicação que busca os dados na API Alerta Dengue e atualiza os dados no banco MySQL.
 ```powershell
 dotnet watch run
 ```
 
-Dentro da pasta do Projeto ConsultaAlertaDengu.API - Executar para ter acesso ao endpoint da API que está fazendo consultas no banco
+Dentro da pasta do Projeto ConsultaAlertaDengu.API - Executar para ter acesso ao endpoint da API que está fazendo consultas no banco.
 ```powershell
 dotnet watch run
 ```
 
-Dentro da pasta do Projeto ConsultaAlertaDengue.WebReact na pasta consulta-alerta-dengue-webreact - Executar para ter acesso a WebApp que exibe os dados persistidos em banco
+Dentro da pasta do Projeto ConsultaAlertaDengue.WebReact na pasta consulta-alerta-dengue-webreact - Executar para ter acesso a WebApp que exibe os dados persistidos em banco.
 ```powershell
 npm start
 ```
